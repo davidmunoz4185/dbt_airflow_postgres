@@ -1,0 +1,17 @@
+version: 2
+
+seeds:
+  - name: jaffle_shop_customers
+    config:
+      schema: jaffle_shop
+      alias: customers
+
+  - name: jaffle_shop_orders
+    config:
+      schema: jaffle_shop
+      alias: orders
+
+  - name: stripe_payments
+    config:
+      schema: stripe
+      alias: payment

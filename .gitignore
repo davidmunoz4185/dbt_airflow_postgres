@@ -1,0 +1,6 @@
+.env
+.dbt/
+.venv/
+.vscode/
+postgres-db-volume/
+logs/
