@@ -18,4 +18,15 @@ jaffle_shop:
       threads: 1
       type: postgres
       user: admin
+    bigquery:
+      dataset: dbt_artifacts_src
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /opt/airflow/dbt/jaffle_shop/cabk-406111-0536bcbecd12.json
+      location: europe-southwest1
+      method: service-account
+      priority: interactive
+      project: cabk-406111
+      threads: 1
+      type: bigquery
   target: dev
